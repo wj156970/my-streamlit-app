@@ -1,0 +1,15 @@
+image,predicted_class,confidence,yolo_detected,color_class,color_confidence
+img.png,ripe,0.977294921875,True,no_banana,0.0
+img1.png,ripe,0.8961688280105591,True,no_banana,0.0
+img_1.png,rotten,0.958331286907196,True,rotten,0.9
+img_10.png,unripe,0.7392582893371582,True,no_banana,0.0
+img_11.png,ripe,0.8315263986587524,True,no_banana,0.0
+img_12.png,overripe,0.7119860789804782,True,overripe,0.7119860789804782
+img_2.png,ripe,0.8721676468849182,True,no_banana,0.0
+img_3.png,rotten,0.9458272457122803,True,no_banana,0.0
+img_4.png,ripe,0.9479449987411499,True,no_banana,0.0
+img_5.png,rotten,0.9502371549606323,True,no_banana,0.0
+img_6.png,rotten,0.8755459189414978,True,no_banana,0.0
+img_7.png,rotten,0.9900410771369934,True,no_banana,0.0
+img_8.png,ripe,0.896462082862854,True,no_banana,0.0
+img_9.png,rotten,0.6433321237564087,True,no_banana,0.0

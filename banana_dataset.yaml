@@ -1,0 +1,10 @@
+
+# Paths
+path: C:\Users\69174\PycharmProjects\Banana_detection\archive\Banana Ripeness Classification Dataset  # dataset root dir
+train: train  # train images (relative to path)
+val: val  # val images (relative to path)
+test: test  # test images (relative to path)
+
+# Classes
+nc: 4  # number of classes
+names: ['overripe', 'ripe', 'rotten', 'unripe']  # class names
