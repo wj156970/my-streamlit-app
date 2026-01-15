@@ -1,7 +1,10 @@
-# 核心依赖
+# 指定 PyTorch CPU 专用源（关键！）
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# 核心依赖（使用 +cpu 后缀确保兼容）
 streamlit>=1.28.0
-torch>=1.12.0
-torchvision>=0.13.0
+torch==2.1.0+cpu
+torchvision==0.16.0+cpu
 ultralytics>=8.0.0
 opencv-python>=4.7.0
 numpy>=1.21.0
