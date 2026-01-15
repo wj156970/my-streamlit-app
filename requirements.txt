@@ -1,12 +1,14 @@
-# 指定 PyTorch CPU 专用源（关键！）
+# 指定 PyTorch CPU 源
 --extra-index-url https://download.pytorch.org/whl/cpu
 
-# 核心依赖（使用 +cpu 后缀确保兼容）
+# 使用 PyTorch 官方提供的最新 CPU 版本（2026年1月可用）
+torch==2.9.1+cpu
+torchvision==0.24.1+cpu
+
+# 核心依赖
 streamlit>=1.28.0
-torch==2.1.0+cpu
-torchvision==0.16.0+cpu
 ultralytics>=8.0.0
-opencv-python-headless>=4.7.0   # ← 修改为 headless 版本
+opencv-python-headless>=4.7.0   # ← 关键：必须用 headless！
 numpy>=1.21.0
 pandas>=1.3.0
 matplotlib>=3.5.0
